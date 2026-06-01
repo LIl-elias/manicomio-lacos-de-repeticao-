@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laço de repetição faca_enquanto</title>
+</head>
+<body>
+    <h1>Laço de repetição faca_enquanto</h1>
+
+    <button onclick="(perguntar())">Começar</button>
+
+    <script>
+        function perguntar(){
+            let nome
+            let resposta
+
+            do {
+                nome = prompt("Digite seu nome")
+
+                resposta = prompt("Quer digitar outro nome?")
+            } while (resposta == "S")
+            
+            alert("Fim")
+        }
+    </script>
+</body>
+</html>
